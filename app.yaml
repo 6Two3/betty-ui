@@ -1,0 +1,12 @@
+runtime: nodejs18
+#service: app-n14
+service: betty
+handlers:
+# Serve all static files with url ending with a file extension
+  - url: /.*
+    secure: always
+    script: auto
+
+automatic_scaling:
+   min_instances: 1
+   max_instances: 2 # Increase in production

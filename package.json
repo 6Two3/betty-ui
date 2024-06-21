@@ -1,0 +1,42 @@
+{
+  "name": "betty",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "@cosmjs/encoding": "^0.32.3",
+    "@cosmos-kit/core": "^2.8.9",
+    "@headlessui/react": "^2.0.3",
+    "@keplr-wallet/types": "^0.12.96",
+    "ethers": "^5.7.2",
+    "kujira.js": "^1.0.57",
+    "next": "14.2.3",
+    "phoenix": "^1.7.12",
+    "pino-pretty": "^11.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.1.1",
+    "react-qr-rounded": "^1.0.0",
+    "react-toastify": "^10.0.5",
+    "react-tooltip": "^4.2.21",
+    "sharp": "^0.33.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/phoenix": "^1.6.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "prettier": "^3.3.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
